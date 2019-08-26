@@ -1,0 +1,8 @@
+-I./include/
+-I./source/
+-I/usr/include/c++/4.8.5/x86_64-redhat-linux/
+-I/usr/include/c++/4.8.2/
+let g:clang_user_options = '-std=c++11'
+let g:clang_hl_errors = 1
+let g:clang_periodic_quickfix = 1
+let g:clang_snippets_engine = 1

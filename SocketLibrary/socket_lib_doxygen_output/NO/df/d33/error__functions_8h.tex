@@ -1,0 +1,216 @@
+\hypertarget{error__functions_8h}{\section{common/include/error\-\_\-functions.h File Reference}
+\label{error__functions_8h}\index{common/include/error\-\_\-functions.\-h@{common/include/error\-\_\-functions.\-h}}
+}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d2/d14/error__functions_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}{N\-O\-R\-E\-T\-U\-R\-N}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{error__functions_8h_a46c1ae408432a2c70da4402236454a5f}{err\-Msg} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em \-: Method to print the message with errno message, without exit or \-\_\-exit call. \end{DoxyCompactList}\item 
+void \hyperlink{error__functions_8h_aeb5543ed0c5dbefe48cc02bfe5ea4b9d}{err\-Exit} (const char $\ast$format,...) \hyperlink{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}{N\-O\-R\-E\-T\-U\-R\-N}
+\begin{DoxyCompactList}\small\item\em \-: Method to print the message with errno message, with exit. \end{DoxyCompactList}\item 
+void \hyperlink{error__functions_8h_a07d4874cc874a23a4a7250cb530ed181}{err\-\_\-exit} (const char $\ast$format,...) \hyperlink{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}{N\-O\-R\-E\-T\-U\-R\-N}
+\begin{DoxyCompactList}\small\item\em \-: Method to print the message with errno message, with \-\_\-exit. \end{DoxyCompactList}\item 
+void \hyperlink{error__functions_8h_a576bb071909f75db9021106ca17060ac}{err\-Exit\-E\-N} (int errnum, const char $\ast$format,...) \hyperlink{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}{N\-O\-R\-E\-T\-U\-R\-N}
+\begin{DoxyCompactList}\small\item\em \-: Method to print the message with errno message, with exit call. \end{DoxyCompactList}\item 
+void \hyperlink{error__functions_8h_a65272d8240c216ffa979ba66ba8eba87}{fatal} (const char $\ast$format,...) \hyperlink{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}{N\-O\-R\-E\-T\-U\-R\-N}
+\begin{DoxyCompactList}\small\item\em \-: Method to print the message with errno message, with \-\_\-exit call. \end{DoxyCompactList}\item 
+void \hyperlink{error__functions_8h_a332d03a26da0bbf12a47952696e0f5cf}{usage\-Err} (const char $\ast$format,...) \hyperlink{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}{N\-O\-R\-E\-T\-U\-R\-N}
+\begin{DoxyCompactList}\small\item\em \-: Method to print the uses error. \end{DoxyCompactList}\item 
+void \hyperlink{error__functions_8h_ab18ff8f52fc83c982f6b57454e82b44e}{cmd\-Line\-Err} (const char $\ast$format,...) \hyperlink{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}{N\-O\-R\-E\-T\-U\-R\-N}
+\begin{DoxyCompactList}\small\item\em \-: Method to print the command line argument error. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}{\index{error\-\_\-functions.\-h@{error\-\_\-functions.\-h}!N\-O\-R\-E\-T\-U\-R\-N@{N\-O\-R\-E\-T\-U\-R\-N}}
+\index{N\-O\-R\-E\-T\-U\-R\-N@{N\-O\-R\-E\-T\-U\-R\-N}!error_functions.h@{error\-\_\-functions.\-h}}
+\subsubsection[{N\-O\-R\-E\-T\-U\-R\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-O\-R\-E\-T\-U\-R\-N}}\label{error__functions_8h_aa1728270d73c5d1598de1fd691762eb1}
+
+
+Definition at line 9 of file error\-\_\-functions.\-h.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{error__functions_8h_ab18ff8f52fc83c982f6b57454e82b44e}{\index{error\-\_\-functions.\-h@{error\-\_\-functions.\-h}!cmd\-Line\-Err@{cmd\-Line\-Err}}
+\index{cmd\-Line\-Err@{cmd\-Line\-Err}!error_functions.h@{error\-\_\-functions.\-h}}
+\subsubsection[{cmd\-Line\-Err}]{\setlength{\rightskip}{0pt plus 5cm}void cmd\-Line\-Err (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{error__functions_8h_ab18ff8f52fc83c982f6b57454e82b44e}
+
+
+\-: Method to print the command line argument error. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 188 of file error\-\_\-functions.\-c.
+
+\hypertarget{error__functions_8h_a07d4874cc874a23a4a7250cb530ed181}{\index{error\-\_\-functions.\-h@{error\-\_\-functions.\-h}!err\-\_\-exit@{err\-\_\-exit}}
+\index{err\-\_\-exit@{err\-\_\-exit}!error_functions.h@{error\-\_\-functions.\-h}}
+\subsubsection[{err\-\_\-exit}]{\setlength{\rightskip}{0pt plus 5cm}void err\-\_\-exit (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{error__functions_8h_a07d4874cc874a23a4a7250cb530ed181}
+
+
+\-: Method to print the message with errno message, with \-\_\-exit. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 122 of file error\-\_\-functions.\-c.
+
+\hypertarget{error__functions_8h_aeb5543ed0c5dbefe48cc02bfe5ea4b9d}{\index{error\-\_\-functions.\-h@{error\-\_\-functions.\-h}!err\-Exit@{err\-Exit}}
+\index{err\-Exit@{err\-Exit}!error_functions.h@{error\-\_\-functions.\-h}}
+\subsubsection[{err\-Exit}]{\setlength{\rightskip}{0pt plus 5cm}void err\-Exit (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{error__functions_8h_aeb5543ed0c5dbefe48cc02bfe5ea4b9d}
+
+
+\-: Method to print the message with errno message, with exit. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 106 of file error\-\_\-functions.\-c.
+
+\hypertarget{error__functions_8h_a576bb071909f75db9021106ca17060ac}{\index{error\-\_\-functions.\-h@{error\-\_\-functions.\-h}!err\-Exit\-E\-N@{err\-Exit\-E\-N}}
+\index{err\-Exit\-E\-N@{err\-Exit\-E\-N}!error_functions.h@{error\-\_\-functions.\-h}}
+\subsubsection[{err\-Exit\-E\-N}]{\setlength{\rightskip}{0pt plus 5cm}void err\-Exit\-E\-N (
+\begin{DoxyParamCaption}
+\item[{int}]{err\-Num, }
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{error__functions_8h_a576bb071909f75db9021106ca17060ac}
+
+
+\-: Method to print the message with errno message, with exit call. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 138 of file error\-\_\-functions.\-c.
+
+\hypertarget{error__functions_8h_a46c1ae408432a2c70da4402236454a5f}{\index{error\-\_\-functions.\-h@{error\-\_\-functions.\-h}!err\-Msg@{err\-Msg}}
+\index{err\-Msg@{err\-Msg}!error_functions.h@{error\-\_\-functions.\-h}}
+\subsubsection[{err\-Msg}]{\setlength{\rightskip}{0pt plus 5cm}void err\-Msg (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{error__functions_8h_a46c1ae408432a2c70da4402236454a5f}
+
+
+\-: Method to print the message with errno message, without exit or \-\_\-exit call. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 88 of file error\-\_\-functions.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{df/d33/error__functions_8h_a46c1ae408432a2c70da4402236454a5f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{df/d33/error__functions_8h_a46c1ae408432a2c70da4402236454a5f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{error__functions_8h_a65272d8240c216ffa979ba66ba8eba87}{\index{error\-\_\-functions.\-h@{error\-\_\-functions.\-h}!fatal@{fatal}}
+\index{fatal@{fatal}!error_functions.h@{error\-\_\-functions.\-h}}
+\subsubsection[{fatal}]{\setlength{\rightskip}{0pt plus 5cm}void fatal (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{error__functions_8h_a65272d8240c216ffa979ba66ba8eba87}
+
+
+\-: Method to print the message with errno message, with \-\_\-exit call. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 154 of file error\-\_\-functions.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{df/d33/error__functions_8h_a65272d8240c216ffa979ba66ba8eba87_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{error__functions_8h_a332d03a26da0bbf12a47952696e0f5cf}{\index{error\-\_\-functions.\-h@{error\-\_\-functions.\-h}!usage\-Err@{usage\-Err}}
+\index{usage\-Err@{usage\-Err}!error_functions.h@{error\-\_\-functions.\-h}}
+\subsubsection[{usage\-Err}]{\setlength{\rightskip}{0pt plus 5cm}void usage\-Err (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{error__functions_8h_a332d03a26da0bbf12a47952696e0f5cf}
+
+
+\-: Method to print the uses error. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 169 of file error\-\_\-functions.\-c.
+

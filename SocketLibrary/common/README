@@ -1,0 +1,69 @@
+****************************
+Calls which sets errno.
+****************************
+To diagnose errors from system calls and library functions, 
+we use errMsg(), errExit(), err_exit(), and errExitEN().
+
+=================================================================================
+void errMsg(const char *format, ...);
+void errExit(const char *format, ...);
+void err_exit(const char *format, ...);
+void errExitEN(int errnum, const char *format, ...);
+================================================================================
+
+The errMsg() function prints a message on standard error. Its argument list is the
+same as for printf(), except that a terminating newline character is automatically
+appended to the output string. The errMsg() function prints the error text corresponding
+to the current value of errno—this consists of the error name, such as
+EPERM, plus the error description as returned by strerror()—followed by the formatted
+output specified in the argument list.
+
+The errExit() function operates like errMsg(), but also terminates the program, by calling exit().
+
+The err_exit() function is similar to errExit(), but differs in two respects:
+􀁺 It doesn’t flush standard output before printing the error message.
+􀁺 It terminates the process by calling _exit() instead of exit().
+This causes the process to terminate without flushing stdio buffers or invoking exit handlers.
+
+The errExitEN() function is the same as errExit(), except that instead of printing
+the error text corresponding to the current value of errno, it prints the text corresponding
+to the error number (thus, the EN suffix) given in the argument errnum.
+
+Mainly, we use errExitEN() in programs that employ the POSIX threads API.
+Unlike traditional UNIX system calls, which return –1 on error, the POSIX threads
+functions diagnose an error by returning an error number (i.e., a positive number
+of the type normally placed in errno) as their function result. (The POSIX threads
+functions return 0 on success.)
+
+Example:
+	s = pthread_create(&thread, NULL, func, &arg);
+	if (s != 0)
+		errExitEN(s, "pthread_create");
+
+*****************************************
+Calls which doesn't sets errno.
+*****************************************
+To diagnose other types of errors, we use fatal(), usageErr(), and cmdLineErr().
+=========================================================================================
+void fatal(const char *format, ...);
+void usageErr(const char *format, ...);
+void cmdLineErr(const char *format, ...);
+=========================================================================================
+
+The fatal() function is used to diagnose general errors, including errors from
+library functions that don’t set errno. Its argument list is the same as for printf(),
+except that a terminating newline character is automatically appended to the output
+string. It prints the formatted output on standard error and then terminates
+the program as with errExit().
+
+
+The usageErr() function is used to diagnose errors in command*line argument
+usage. It takes an argument list in the style of printf() and prints the string Usage:
+followed by the formatted output on standard error, and then terminates the program
+by calling exit().
+
+
+The cmdLineErr() function is similar to usageErr(), but is intended for diagnosing
+errors in the command*line arguments specified to a program.
+
+

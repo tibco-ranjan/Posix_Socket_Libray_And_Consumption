@@ -1,0 +1,508 @@
+\hypertarget{common_2README}{\section{common/\-R\-E\-A\-D\-M\-E File Reference}
+\label{common_2README}\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose \hyperlink{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}{errors} from system \\*
+calls and \hyperlink{ClientServer_2server_2Makefile_a1f477410360bd4832116581b9934ab71}{library} we use \hyperlink{common_2README_a83413e40798cc613af12fa88a21035a5}{err\-Msg} ()
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose \hyperlink{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}{errors} from system \\*
+calls and \hyperlink{ClientServer_2server_2Makefile_a1f477410360bd4832116581b9934ab71}{library} we use \hyperlink{common_2README_a68943fd8366445b15b2c72863bbc5b01}{err\-Exit} ()
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose \hyperlink{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}{errors} from system \\*
+calls and \hyperlink{ClientServer_2server_2Makefile_a1f477410360bd4832116581b9934ab71}{library} we use \hyperlink{common_2README_ad0cc7e68335dc54caa4465fe0ca45c21}{err\-\_\-exit} ()
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose \hyperlink{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}{errors} from system \\*
+calls and \hyperlink{ClientServer_2server_2Makefile_a1f477410360bd4832116581b9934ab71}{library} we use and \hyperlink{common_2README_a7c791eab42a732b614ef10956cc9b101}{err\-Exit\-E\-N} ().
+\item 
+void \hyperlink{common_2README_a9353730adacb3417493e841dace8708b}{err\-Exit} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em \-: Method to print the message with errno message, with exit. \end{DoxyCompactList}\item 
+void \hyperlink{common_2README_ad83bc66851be4582ec97ba670a95fa0a}{err\-\_\-exit} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em \-: Method to print the message with errno message, with \-\_\-exit. \end{DoxyCompactList}\item 
+void \hyperlink{common_2README_a6d6d5790ca5bffa970baeeefd8a28462}{err\-Exit\-E\-N} (int errnum, const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em \-: Method to print the message with errno message, with exit call. \end{DoxyCompactList}\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as plus \\*
+\hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} description as \\*
+returned by \hyperlink{common_2README_af3164892dd3bd1beaa3a2b70e01edcd9}{strerror} () —followed by \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} formatted output specified in \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} argument list.\-The \hyperlink{error__functions_8c_a9353730adacb3417493e841dace8708b}{err\-Exit}() function operates like \hyperlink{error__functions_8c_a46c1ae408432a2c70da4402236454a5f}{err\-Msg}()
+\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as plus \\*
+\hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} description as \\*
+returned by but also \\*
+terminates \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} by calling \hyperlink{common_2README_a85c39bfe84eed5e1d7dae87fb0018669}{exit} ().The \hyperlink{error__functions_8c_ad83bc66851be4582ec97ba670a95fa0a}{err\-\_\-exit}() function is similar to \hyperlink{error__functions_8c_a9353730adacb3417493e841dace8708b}{err\-Exit}()
+\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as plus \\*
+\hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} description as \\*
+returned by but also \\*
+terminates \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} by calling but \\*
+differs in two except that \\*
+instead of printing \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} \\*
+text corresponding to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+current value of it prints \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+text corresponding to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+\hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} \hyperlink{common_2README_aba79e3975c1b7da6e77c2f4b561603ae}{number} (thus, \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} E\-N suffix) given in \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} argument errnum.\-Mainly
+\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as plus \\*
+\hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} description as \\*
+returned by but also \\*
+terminates \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} by calling but \\*
+differs in two except that \\*
+instead of printing \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} \\*
+text corresponding to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+current value of it prints \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+text corresponding to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+\hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} we use which return –1 \\*
+on \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} P\-O\-S\-I\-X threads \hyperlink{common_2README_a853571ba73c010b99ff2788a0cfe4395}{functions} \\*
+diagnose an \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} by returning \\*
+an \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} \hyperlink{common_2README_aba79e3975c1b7da6e77c2f4b561603ae}{number}(i.\-e., a \\*
+positive \hyperlink{common_2README_aba79e3975c1b7da6e77c2f4b561603ae}{number} of \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} type \\*
+normally placed in \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno}) as \\*
+their function result.(The \\*
+P\-O\-S\-I\-X threads \hyperlink{common_2README_a853571ba73c010b99ff2788a0cfe4395}{functions} return \\*
+0 on success.) Example \hyperlink{common_2README_aaa5f75c9c764c204bf342e6b6cc969f6}{err\-Exit\-E\-N} (s,\char`\"{}pthread\-\_\-create\char`\"{})
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which doesn t sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose other types of we use \hyperlink{common_2README_ae688a97aa2b3eb3a27322a140be60049}{fatal} ()
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which doesn t sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose other types of we use \hyperlink{common_2README_aff916c132f7e6f0b0dec6d7c28ee2573}{usage\-Err} ()
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which doesn t sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose other types of we use \\*
+and \hyperlink{common_2README_a63ccbdd536fd5a8c256b6aba4bab691a}{cmd\-Line\-Err} ().
+\item 
+void \hyperlink{common_2README_a0c81140d074e6630634e05e7ca437390}{usage\-Err} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em \-: Method to print the uses error. \end{DoxyCompactList}\item 
+void \hyperlink{common_2README_a2998a663efe6e91b3870e2bb7fba5504}{cmd\-Line\-Err} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em \-: Method to print the command line argument error. \end{DoxyCompactList}\item 
+including \hyperlink{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}{errors} from \hyperlink{ClientServer_2server_2Makefile_a1f477410360bd4832116581b9934ab71}{library} \\*
+\hyperlink{common_2README_a853571ba73c010b99ff2788a0cfe4395}{functions} that don’t set \\*
+\hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} Its argument list is \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+same as for \hyperlink{common_2README_ae46f6c5c5729768631dc5ff84e16d52b}{printf} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose \hyperlink{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}{errors} from system \\*
+calls and \hyperlink{ClientServer_2server_2Makefile_a1f477410360bd4832116581b9934ab71}{library} \hyperlink{common_2README_a853571ba73c010b99ff2788a0cfe4395}{functions}
+\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as \hyperlink{common_2README_a9f655c76c94b7fe5fa4714a077ef4d7e}{E\-P\-E\-R\-M}
+\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as plus \\*
+\hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} description as \\*
+returned by but also \\*
+terminates \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a2648c031e7768d2922f9bceca11215d9}{program}
+\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as plus \\*
+\hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} description as \\*
+returned by but also \\*
+terminates \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} by calling but \\*
+differs in two \hyperlink{common_2README_a33a4706d30ee60d6fc7d0c4b387dc3b9}{respects}
+\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as plus \\*
+\hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} description as \\*
+returned by but also \\*
+terminates \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} by calling but \\*
+differs in two except that \\*
+instead of printing \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error} \\*
+text corresponding to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+current value of \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno}
+\item 
+except that a terminating \\*
+newline character is \\*
+automatically appended to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+output string The such as plus \\*
+\hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} error description as \\*
+returned by but also \\*
+terminates \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} by calling but \\*
+differs in two except that \\*
+instead of printing \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} error \\*
+text corresponding to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+current value of it prints \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+text corresponding to \hyperlink{ClientServer_2server_2Makefile_a09c6b60bb7451f9136e25140ffdff6bd}{the} \\*
+error we use which return –1 \\*
+on \hyperlink{common_2README_a80171b13188418b4328f9247d3aff3d2}{error}
+\item 
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$Calls \\*
+which doesn t sets \hyperlink{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{errno} \\*
+$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$To \\*
+diagnose other types of \hyperlink{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}{errors}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{common_2README_a63ccbdd536fd5a8c256b6aba4bab691a}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!cmd\-Line\-Err@{cmd\-Line\-Err}}
+\index{cmd\-Line\-Err@{cmd\-Line\-Err}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{cmd\-Line\-Err}]{\setlength{\rightskip}{0pt plus 5cm}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ Calls which doesn t sets {\bf errno}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ To diagnose other types of we use and cmd\-Line\-Err (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a63ccbdd536fd5a8c256b6aba4bab691a}
+\hypertarget{common_2README_a2998a663efe6e91b3870e2bb7fba5504}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!cmd\-Line\-Err@{cmd\-Line\-Err}}
+\index{cmd\-Line\-Err@{cmd\-Line\-Err}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{cmd\-Line\-Err}]{\setlength{\rightskip}{0pt plus 5cm}void cmd\-Line\-Err (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a2998a663efe6e91b3870e2bb7fba5504}
+
+
+\-: Method to print the command line argument error. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 188 of file error\-\_\-functions.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{d2/d3d/common_2README_a2998a663efe6e91b3870e2bb7fba5504_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{common_2README_ad0cc7e68335dc54caa4465fe0ca45c21}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!err\-\_\-exit@{err\-\_\-exit}}
+\index{err\-\_\-exit@{err\-\_\-exit}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{err\-\_\-exit}]{\setlength{\rightskip}{0pt plus 5cm}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ Calls which sets {\bf errno}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ To diagnose {\bf errors} from system calls and {\bf library} we use err\-\_\-exit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_ad0cc7e68335dc54caa4465fe0ca45c21}
+\hypertarget{common_2README_ad83bc66851be4582ec97ba670a95fa0a}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!err\-\_\-exit@{err\-\_\-exit}}
+\index{err\-\_\-exit@{err\-\_\-exit}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{err\-\_\-exit}]{\setlength{\rightskip}{0pt plus 5cm}void err\-\_\-exit (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{common_2README_ad83bc66851be4582ec97ba670a95fa0a}
+
+
+\-: Method to print the message with errno message, with \-\_\-exit. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 122 of file error\-\_\-functions.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d2/d3d/common_2README_ad83bc66851be4582ec97ba670a95fa0a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{common_2README_a68943fd8366445b15b2c72863bbc5b01}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!err\-Exit@{err\-Exit}}
+\index{err\-Exit@{err\-Exit}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{err\-Exit}]{\setlength{\rightskip}{0pt plus 5cm}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ Calls which sets {\bf errno}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ To diagnose {\bf errors} from system calls and {\bf library} we use err\-Exit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a68943fd8366445b15b2c72863bbc5b01}
+\hypertarget{common_2README_a9353730adacb3417493e841dace8708b}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!err\-Exit@{err\-Exit}}
+\index{err\-Exit@{err\-Exit}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{err\-Exit}]{\setlength{\rightskip}{0pt plus 5cm}void err\-Exit (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a9353730adacb3417493e841dace8708b}
+
+
+\-: Method to print the message with errno message, with exit. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 106 of file error\-\_\-functions.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{d2/d3d/common_2README_a9353730adacb3417493e841dace8708b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{common_2README_a7c791eab42a732b614ef10956cc9b101}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!err\-Exit\-E\-N@{err\-Exit\-E\-N}}
+\index{err\-Exit\-E\-N@{err\-Exit\-E\-N}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{err\-Exit\-E\-N}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} {\bf error} description as returned by but also terminates {\bf the} by calling but differs in two except that instead of printing {\bf the} {\bf error} text corresponding to {\bf the} current value of it prints {\bf the} text corresponding to {\bf the} {\bf error} we use err\-Exit\-E\-N (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a7c791eab42a732b614ef10956cc9b101}
+\hypertarget{common_2README_a6d6d5790ca5bffa970baeeefd8a28462}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!err\-Exit\-E\-N@{err\-Exit\-E\-N}}
+\index{err\-Exit\-E\-N@{err\-Exit\-E\-N}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{err\-Exit\-E\-N}]{\setlength{\rightskip}{0pt plus 5cm}void err\-Exit\-E\-N (
+\begin{DoxyParamCaption}
+\item[{int}]{err\-Num, }
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a6d6d5790ca5bffa970baeeefd8a28462}
+
+
+\-: Method to print the message with errno message, with exit call. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 138 of file error\-\_\-functions.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{d2/d3d/common_2README_a6d6d5790ca5bffa970baeeefd8a28462_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{common_2README_aaa5f75c9c764c204bf342e6b6cc969f6}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!err\-Exit\-E\-N@{err\-Exit\-E\-N}}
+\index{err\-Exit\-E\-N@{err\-Exit\-E\-N}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{err\-Exit\-E\-N}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} {\bf error} description as returned by but also terminates {\bf the} by calling but differs in two except that instead of printing {\bf the} {\bf error} text corresponding to {\bf the} current value of it prints {\bf the} text corresponding to {\bf the} {\bf error} we use which return –1 on {\bf the} P\-O\-S\-I\-X threads {\bf functions} diagnose an {\bf error} by returning an {\bf error} {\bf number} (i.\-e., a positive {\bf number} of {\bf the} type normally placed in {\bf errno}) as their function result. (The P\-O\-S\-I\-X threads {\bf functions} return 0 on success.) Example err\-Exit\-E\-N (
+\begin{DoxyParamCaption}
+\item[{s}]{, }
+\item[{\char`\"{}pthread\-\_\-create\char`\"{}}]{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_aaa5f75c9c764c204bf342e6b6cc969f6}
+\hypertarget{common_2README_a83413e40798cc613af12fa88a21035a5}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!err\-Msg@{err\-Msg}}
+\index{err\-Msg@{err\-Msg}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{err\-Msg}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The err\-Msg (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a83413e40798cc613af12fa88a21035a5}
+\hypertarget{common_2README_a85c39bfe84eed5e1d7dae87fb0018669}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!exit@{exit}}
+\index{exit@{exit}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{exit}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} {\bf error} description as returned by but also terminates {\bf the} by calling exit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a85c39bfe84eed5e1d7dae87fb0018669}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d3d/common_2README_a85c39bfe84eed5e1d7dae87fb0018669_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{common_2README_ae688a97aa2b3eb3a27322a140be60049}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!fatal@{fatal}}
+\index{fatal@{fatal}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{fatal}]{\setlength{\rightskip}{0pt plus 5cm}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ Calls which doesn t sets {\bf errno}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ To diagnose other types of we use fatal (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_ae688a97aa2b3eb3a27322a140be60049}
+\hypertarget{common_2README_aba79e3975c1b7da6e77c2f4b561603ae}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!number@{number}}
+\index{number@{number}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{number}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} {\bf error} description as returned by but also terminates {\bf the} by calling but differs in two except that instead of printing {\bf the} {\bf error} text corresponding to {\bf the} current value of it prints {\bf the} text corresponding to {\bf the} {\bf error} number (
+\begin{DoxyParamCaption}
+\item[{thus}]{, }
+\item[{{\bf the} E\-N}]{suffix}
+\end{DoxyParamCaption}
+)}}\label{common_2README_aba79e3975c1b7da6e77c2f4b561603ae}
+\hypertarget{common_2README_ae46f6c5c5729768631dc5ff84e16d52b}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!printf@{printf}}
+\index{printf@{printf}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{printf}]{\setlength{\rightskip}{0pt plus 5cm}including {\bf errors} from {\bf library} {\bf functions} that don’t set {\bf errno} Its argument list is {\bf the} same as for printf (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_ae46f6c5c5729768631dc5ff84e16d52b}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{d2/d3d/common_2README_ae46f6c5c5729768631dc5ff84e16d52b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{common_2README_af3164892dd3bd1beaa3a2b70e01edcd9}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!strerror@{strerror}}
+\index{strerror@{strerror}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{strerror}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} {\bf error} description as returned by strerror (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_af3164892dd3bd1beaa3a2b70e01edcd9}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d3d/common_2README_af3164892dd3bd1beaa3a2b70e01edcd9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{common_2README_aff916c132f7e6f0b0dec6d7c28ee2573}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!usage\-Err@{usage\-Err}}
+\index{usage\-Err@{usage\-Err}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{usage\-Err}]{\setlength{\rightskip}{0pt plus 5cm}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ Calls which doesn t sets {\bf errno}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ To diagnose other types of we use usage\-Err (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{common_2README_aff916c132f7e6f0b0dec6d7c28ee2573}
+\hypertarget{common_2README_a0c81140d074e6630634e05e7ca437390}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!usage\-Err@{usage\-Err}}
+\index{usage\-Err@{usage\-Err}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{usage\-Err}]{\setlength{\rightskip}{0pt plus 5cm}void usage\-Err (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{common_2README_a0c81140d074e6630634e05e7ca437390}
+
+
+\-: Method to print the uses error. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India) 
+\end{DoxyAuthor}
+
+
+Definition at line 169 of file error\-\_\-functions.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{d2/d3d/common_2README_a0c81140d074e6630634e05e7ca437390_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{common_2README_a9f655c76c94b7fe5fa4714a077ef4d7e}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!E\-P\-E\-R\-M@{E\-P\-E\-R\-M}}
+\index{E\-P\-E\-R\-M@{E\-P\-E\-R\-M}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{E\-P\-E\-R\-M}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as E\-P\-E\-R\-M}}\label{common_2README_a9f655c76c94b7fe5fa4714a077ef4d7e}
+
+
+Definition at line 18 of file R\-E\-A\-D\-M\-E.
+
+\hypertarget{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!errno@{errno}}
+\index{errno@{errno}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{errno}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} {\bf error} description as returned by but also terminates {\bf the} by calling but differs in two except that instead of printing {\bf the} {\bf error} text corresponding to {\bf the} current value of errno}}\label{common_2README_afe75ee0c7e5a90ba6bb38426ea69b996}
+
+
+Definition at line 28 of file R\-E\-A\-D\-M\-E.
+
+\hypertarget{common_2README_a80171b13188418b4328f9247d3aff3d2}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!error@{error}}
+\index{error@{error}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{error}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} error description as returned by but also terminates {\bf the} by calling but differs in two except that instead of printing {\bf the} error text corresponding to {\bf the} current value of it prints {\bf the} text corresponding to {\bf the} error we use which return –1 on error}}\label{common_2README_a80171b13188418b4328f9247d3aff3d2}
+
+
+Definition at line 33 of file R\-E\-A\-D\-M\-E.
+
+\hypertarget{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!errors@{errors}}
+\index{errors@{errors}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{errors}]{\setlength{\rightskip}{0pt plus 5cm}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ Calls which doesn t sets {\bf errno}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ To diagnose other types of errors}}\label{common_2README_a9912daeb8cc621a6ee8e1d24ebdbe601}
+
+
+Definition at line 46 of file R\-E\-A\-D\-M\-E.
+
+\hypertarget{common_2README_a853571ba73c010b99ff2788a0cfe4395}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!functions@{functions}}
+\index{functions@{functions}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{functions}]{\setlength{\rightskip}{0pt plus 5cm}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ Calls which sets {\bf errno}$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$ To diagnose {\bf errors} from system calls and {\bf library} functions}}\label{common_2README_a853571ba73c010b99ff2788a0cfe4395}
+
+
+Definition at line 4 of file R\-E\-A\-D\-M\-E.
+
+\hypertarget{common_2README_a2648c031e7768d2922f9bceca11215d9}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!program@{program}}
+\index{program@{program}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{program}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} {\bf error} description as returned by but also terminates {\bf the} program}}\label{common_2README_a2648c031e7768d2922f9bceca11215d9}
+
+
+Definition at line 21 of file R\-E\-A\-D\-M\-E.
+
+\hypertarget{common_2README_a33a4706d30ee60d6fc7d0c4b387dc3b9}{\index{common/\-R\-E\-A\-D\-M\-E@{common/\-R\-E\-A\-D\-M\-E}!respects@{respects}}
+\index{respects@{respects}!common/README@{common/\-R\-E\-A\-D\-M\-E}}
+\subsubsection[{respects}]{\setlength{\rightskip}{0pt plus 5cm}except that a terminating newline character is automatically appended to {\bf the} output string The such as plus {\bf the} {\bf error} description as returned by but also terminates {\bf the} by calling but differs in two respects}}\label{common_2README_a33a4706d30ee60d6fc7d0c4b387dc3b9}
+
+
+Definition at line 28 of file R\-E\-A\-D\-M\-E.
+

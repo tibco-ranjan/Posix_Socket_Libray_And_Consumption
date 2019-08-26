@@ -1,0 +1,22 @@
+#ifndef _CLOGGER_H
+#define _CLOGGER_H
+#include"aupe.h"
+#include"betterTemplateSingleton.h"
+#define LOGGER CLogger::getLogger()
+class CLogger :public CSingleton<CLogger>{
+public:
+	void Log(const std::string &message);
+	void Log(const char* format, ...);
+	CLogger& operator<<(const std::string &message);
+	static CLogger *getLogger();
+private:
+	/*CLogger(){}
+	~CLogger(){};
+	CLogger(const CLogger &that){}
+	CLogger &operator=(const CLogger &that){return *this;}*/
+	
+	static const std::string m_FileName;
+	static ofstream m_HandleFile;
+	//static CLogger *m_ThisLogger;
+};
+#endif /*_CLOGGER_H*/

@@ -1,0 +1,42 @@
+\hypertarget{ClientServer_2Makefile}{\section{Client\-Server/\-Makefile File Reference}
+\label{ClientServer_2Makefile}\index{Client\-Server/\-Makefile@{Client\-Server/\-Makefile}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ClientServer_2Makefile_a54d2d882a8cc61f85bf978b5e4317ab1}{do} (M\-A\-K\-E)-\/C \$\$dir-\/f Makefile \$@
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ClientServer_2Makefile_a290c239123caef8485b75428c4acc522}{S\-U\-B\-D\-I\-R\-S}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{ClientServer_2Makefile_a54d2d882a8cc61f85bf978b5e4317ab1}{\index{Client\-Server/\-Makefile@{Client\-Server/\-Makefile}!do@{do}}
+\index{do@{do}!ClientServer/Makefile@{Client\-Server/\-Makefile}}
+\subsubsection[{do}]{\setlength{\rightskip}{0pt plus 5cm}do (
+\begin{DoxyParamCaption}
+\item[{M\-A\-K\-E}]{}
+\end{DoxyParamCaption}
+)}}\label{ClientServer_2Makefile_a54d2d882a8cc61f85bf978b5e4317ab1}
+
+
+\subsection{Variable Documentation}
+\hypertarget{ClientServer_2Makefile_a290c239123caef8485b75428c4acc522}{\index{Client\-Server/\-Makefile@{Client\-Server/\-Makefile}!S\-U\-B\-D\-I\-R\-S@{S\-U\-B\-D\-I\-R\-S}}
+\index{S\-U\-B\-D\-I\-R\-S@{S\-U\-B\-D\-I\-R\-S}!ClientServer/Makefile@{Client\-Server/\-Makefile}}
+\subsubsection[{S\-U\-B\-D\-I\-R\-S}]{\setlength{\rightskip}{0pt plus 5cm}S\-U\-B\-D\-I\-R\-S}}\label{ClientServer_2Makefile_a290c239123caef8485b75428c4acc522}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= server client
+
+.PHONY: all clean
+
+all clean:
+    \textcolor{keywordflow}{for} dir in $(\hyperlink{ClientServer_2Makefile_a290c239123caef8485b75428c4acc522}{SUBDIRS})
+\end{DoxyCode}
+
+
+Definition at line 1 of file Makefile.
+

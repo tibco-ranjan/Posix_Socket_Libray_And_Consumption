@@ -1,0 +1,96 @@
+\hypertarget{tlpi__hdr_8h}{\section{common/include/tlpi\-\_\-hdr.h File Reference}
+\label{tlpi__hdr_8h}\index{common/include/tlpi\-\_\-hdr.\-h@{common/include/tlpi\-\_\-hdr.\-h}}
+}
+{\ttfamily \#include $<$sys/types.\-h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$errno.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}get\-\_\-num.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}error\-\_\-functions.\-h\char`\"{}}\\*
+Include dependency graph for tlpi\-\_\-hdr.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/de5/tlpi__hdr_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{df/df0/tlpi__hdr_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{tlpi__hdr_8h_a2a9e49dec41ddabf74cd01742996228f}{T\-L\-P\-I\-\_\-\-H\-D\-R\-\_\-\-H}~/$\ast$ Prevent accidental double inclusion $\ast$/
+\item 
+\#define \hyperlink{tlpi__hdr_8h_a69db94a857e4ed0645c48085b2e3bd0a}{min}(m, n)~((m) $<$ (n) ? (m) \-: (n))
+\item 
+\#define \hyperlink{tlpi__hdr_8h_aae5d226fe30fc72743bf5b8b3d691fe7}{max}(m, n)~((m) $>$ (n) ? (m) \-: (n))
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cf}{B\-O\-O\-L\-E\-A\-N} \{ \hyperlink{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cfaa1e095cc966dbecf6a0d8aad75348d1a}{F\-A\-L\-S\-E}, 
+\hyperlink{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cfaa82764c3079aea4e60c80e45befbb839}{T\-R\-U\-E}
+ \}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{tlpi__hdr_8h_aae5d226fe30fc72743bf5b8b3d691fe7}{\index{tlpi\-\_\-hdr.\-h@{tlpi\-\_\-hdr.\-h}!max@{max}}
+\index{max@{max}!tlpi_hdr.h@{tlpi\-\_\-hdr.\-h}}
+\subsubsection[{max}]{\setlength{\rightskip}{0pt plus 5cm}\#define max(
+\begin{DoxyParamCaption}
+\item[{}]{m, }
+\item[{}]{n}
+\end{DoxyParamCaption}
+)~((m) $>$ (n) ? (m) \-: (n))}}\label{tlpi__hdr_8h_aae5d226fe30fc72743bf5b8b3d691fe7}
+
+
+Definition at line 16 of file tlpi\-\_\-hdr.\-h.
+
+\hypertarget{tlpi__hdr_8h_a69db94a857e4ed0645c48085b2e3bd0a}{\index{tlpi\-\_\-hdr.\-h@{tlpi\-\_\-hdr.\-h}!min@{min}}
+\index{min@{min}!tlpi_hdr.h@{tlpi\-\_\-hdr.\-h}}
+\subsubsection[{min}]{\setlength{\rightskip}{0pt plus 5cm}\#define min(
+\begin{DoxyParamCaption}
+\item[{}]{m, }
+\item[{}]{n}
+\end{DoxyParamCaption}
+)~((m) $<$ (n) ? (m) \-: (n))}}\label{tlpi__hdr_8h_a69db94a857e4ed0645c48085b2e3bd0a}
+
+
+Definition at line 15 of file tlpi\-\_\-hdr.\-h.
+
+\hypertarget{tlpi__hdr_8h_a2a9e49dec41ddabf74cd01742996228f}{\index{tlpi\-\_\-hdr.\-h@{tlpi\-\_\-hdr.\-h}!T\-L\-P\-I\-\_\-\-H\-D\-R\-\_\-\-H@{T\-L\-P\-I\-\_\-\-H\-D\-R\-\_\-\-H}}
+\index{T\-L\-P\-I\-\_\-\-H\-D\-R\-\_\-\-H@{T\-L\-P\-I\-\_\-\-H\-D\-R\-\_\-\-H}!tlpi_hdr.h@{tlpi\-\_\-hdr.\-h}}
+\subsubsection[{T\-L\-P\-I\-\_\-\-H\-D\-R\-\_\-\-H}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-L\-P\-I\-\_\-\-H\-D\-R\-\_\-\-H~/$\ast$ Prevent accidental double inclusion $\ast$/}}\label{tlpi__hdr_8h_a2a9e49dec41ddabf74cd01742996228f}
+
+
+Definition at line 2 of file tlpi\-\_\-hdr.\-h.
+
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cf}{\index{tlpi\-\_\-hdr.\-h@{tlpi\-\_\-hdr.\-h}!B\-O\-O\-L\-E\-A\-N@{B\-O\-O\-L\-E\-A\-N}}
+\index{B\-O\-O\-L\-E\-A\-N@{B\-O\-O\-L\-E\-A\-N}!tlpi_hdr.h@{tlpi\-\_\-hdr.\-h}}
+\subsubsection[{B\-O\-O\-L\-E\-A\-N}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf B\-O\-O\-L\-E\-A\-N}}}\label{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cf}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{F\-A\-L\-S\-E@{F\-A\-L\-S\-E}!tlpi\-\_\-hdr.\-h@{tlpi\-\_\-hdr.\-h}}\index{tlpi\-\_\-hdr.\-h@{tlpi\-\_\-hdr.\-h}!F\-A\-L\-S\-E@{F\-A\-L\-S\-E}}\item[{\em 
+\hypertarget{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cfaa1e095cc966dbecf6a0d8aad75348d1a}{F\-A\-L\-S\-E}\label{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cfaa1e095cc966dbecf6a0d8aad75348d1a}
+}]\index{T\-R\-U\-E@{T\-R\-U\-E}!tlpi\-\_\-hdr.\-h@{tlpi\-\_\-hdr.\-h}}\index{tlpi\-\_\-hdr.\-h@{tlpi\-\_\-hdr.\-h}!T\-R\-U\-E@{T\-R\-U\-E}}\item[{\em 
+\hypertarget{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cfaa82764c3079aea4e60c80e45befbb839}{T\-R\-U\-E}\label{tlpi__hdr_8h_aec7e62084419d7857ae740a4c68241cfaa82764c3079aea4e60c80e45befbb839}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 14 of file tlpi\-\_\-hdr.\-h.
+

@@ -1,0 +1,79 @@
+\hypertarget{source_2inet__handle__multiplex__io_8cpp}{\section{tcp\-Socket/source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.cpp File Reference}
+\label{source_2inet__handle__multiplex__io_8cpp}\index{tcp\-Socket/source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp@{tcp\-Socket/source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp}}
+}
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}inet\-\_\-socket.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}C\-Logger.\-h\char`\"{}}\\*
+Include dependency graph for inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/dee/source_2inet__handle__multiplex__io_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{source_2inet__handle__multiplex__io_8cpp_a16c16f9369be4a374a3e621f6d13bb16}{M\-A\-X\-D\-A\-T\-A\-S\-I\-Z\-E}~128
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{source_2inet__handle__multiplex__io_8cpp_a5b7d00b9255711bb21248a110db46c9a}{inet\-\_\-handle\-\_\-multiplex\-\_\-io} (const int sockfd, int nsec)
+\begin{DoxyCompactList}\small\item\em \-: This method handles the non blocking I/\-O operation, can be use by both active and passive(client or server) socket to monitor multiple I/\-O at their side. uses select call for monitoring multiple I/\-Os. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{source_2inet__handle__multiplex__io_8cpp_a16c16f9369be4a374a3e621f6d13bb16}{\index{source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp@{source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp}!M\-A\-X\-D\-A\-T\-A\-S\-I\-Z\-E@{M\-A\-X\-D\-A\-T\-A\-S\-I\-Z\-E}}
+\index{M\-A\-X\-D\-A\-T\-A\-S\-I\-Z\-E@{M\-A\-X\-D\-A\-T\-A\-S\-I\-Z\-E}!source/inet_handle_multiplex_io.cpp@{source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp}}
+\subsubsection[{M\-A\-X\-D\-A\-T\-A\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-A\-X\-D\-A\-T\-A\-S\-I\-Z\-E~128}}\label{source_2inet__handle__multiplex__io_8cpp_a16c16f9369be4a374a3e621f6d13bb16}
+
+
+Definition at line 9 of file inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{source_2inet__handle__multiplex__io_8cpp_a5b7d00b9255711bb21248a110db46c9a}{\index{source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp@{source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp}!inet\-\_\-handle\-\_\-multiplex\-\_\-io@{inet\-\_\-handle\-\_\-multiplex\-\_\-io}}
+\index{inet\-\_\-handle\-\_\-multiplex\-\_\-io@{inet\-\_\-handle\-\_\-multiplex\-\_\-io}!source/inet_handle_multiplex_io.cpp@{source/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp}}
+\subsubsection[{inet\-\_\-handle\-\_\-multiplex\-\_\-io}]{\setlength{\rightskip}{0pt plus 5cm}int inet\-\_\-handle\-\_\-multiplex\-\_\-io (
+\begin{DoxyParamCaption}
+\item[{const int}]{sockfd, }
+\item[{int}]{nsec}
+\end{DoxyParamCaption}
+)}}\label{source_2inet__handle__multiplex__io_8cpp_a5b7d00b9255711bb21248a110db46c9a}
+
+
+\-: This method handles the non blocking I/\-O operation, can be use by both active and passive(client or server) socket to monitor multiple I/\-O at their side. uses select call for monitoring multiple I/\-Os. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India).
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em \-:} & \mbox{[}in\mbox{]} sockfd \{socket/file fd monior for I/\-O\} \\
+\hline
+{\em \-:} & \mbox{[}in\mbox{]} nsec \{select timeout in seconds\} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 24 of file inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d52/source_2inet__handle__multiplex__io_8cpp_a5b7d00b9255711bb21248a110db46c9a_icgraph}
+\end{center}
+\end{figure}
+
+

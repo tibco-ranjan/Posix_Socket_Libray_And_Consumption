@@ -1,0 +1,49 @@
+\hypertarget{readLine_8cpp}{\section{tcp\-Socket/source/read\-Line.cpp File Reference}
+\label{readLine_8cpp}\index{tcp\-Socket/source/read\-Line.\-cpp@{tcp\-Socket/source/read\-Line.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}read\-Line.\-h\char`\"{}}\\*
+Include dependency graph for read\-Line.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d42/readLine_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+ssize\-\_\-t \hyperlink{readLine_8cpp_ae5fe12dcd80500477715cce8c11a29b5}{read\-Line} (int fd, char $\ast$buff, size\-\_\-t n)
+\begin{DoxyCompactList}\small\item\em \-: The \hyperlink{readLine_8h_ae5fe12dcd80500477715cce8c11a29b5}{read\-Line()} function reads bytes from the file referred to by the file descriptor argument fd until a newline is encountered. The input byte sequence is returned in the location pointed to by buffer, which must point to a region of at least n bytes of memory. The returned string is always null-\/terminated; thus, at most (n – 1) bytes of actual data will be returned. On success, \hyperlink{readLine_8h_ae5fe12dcd80500477715cce8c11a29b5}{read\-Line()} returns the number of bytes of data placed in buffer; the terminating null byte is not included in this count. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{readLine_8cpp_ae5fe12dcd80500477715cce8c11a29b5}{\index{read\-Line.\-cpp@{read\-Line.\-cpp}!read\-Line@{read\-Line}}
+\index{read\-Line@{read\-Line}!readLine.cpp@{read\-Line.\-cpp}}
+\subsubsection[{read\-Line}]{\setlength{\rightskip}{0pt plus 5cm}ssize\-\_\-t read\-Line (
+\begin{DoxyParamCaption}
+\item[{int}]{fd, }
+\item[{char $\ast$}]{buff, }
+\item[{size\-\_\-t}]{n}
+\end{DoxyParamCaption}
+)}}\label{readLine_8cpp_ae5fe12dcd80500477715cce8c11a29b5}
+
+
+\-: The \hyperlink{readLine_8h_ae5fe12dcd80500477715cce8c11a29b5}{read\-Line()} function reads bytes from the file referred to by the file descriptor argument fd until a newline is encountered. The input byte sequence is returned in the location pointed to by buffer, which must point to a region of at least n bytes of memory. The returned string is always null-\/terminated; thus, at most (n – 1) bytes of actual data will be returned. On success, \hyperlink{readLine_8h_ae5fe12dcd80500477715cce8c11a29b5}{read\-Line()} returns the number of bytes of data placed in buffer; the terminating null byte is not included in this count. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & fd \mbox{[}in\mbox{]} file descriptior number. \\
+\hline
+{\em } & buff \mbox{[}in\mbox{]} buffer to contian the data. \\
+\hline
+{\em } & n \mbox{[}in\mbox{]} number of bytes expected to read.(should be $>$ 0) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: Returns number of bytes copied into buffer (excluding terminating null byte), or 0 on end-\/of-\/file, or –1 on error 
+\end{DoxyReturn}
+
+
+Definition at line 16 of file read\-Line.\-cpp.
+

@@ -1,0 +1,12 @@
+<map id="exit" name="exit">
+<area shape="rect" id="node2" href="$d9/d95/client_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="143,31,193,57"/>
+<area shape="rect" id="node3" href="$dd/d35/error__functions_8c.html#ad0aaa18a5967e8ea284b980da0029f58" title=": Note: Difference between exit() and _exit() " alt="" coords="130,81,206,108"/>
+<area shape="rect" id="node8" href="$dd/d35/error__functions_8c.html#a0c81140d074e6630634e05e7ca437390" title=": Method to print the uses error. " alt="" coords="131,132,205,159"/>
+<area shape="rect" id="node9" href="$dd/d35/error__functions_8c.html#a2998a663efe6e91b3870e2bb7fba5504" title=": Method to print the command line argument error. " alt="" coords="124,183,212,209"/>
+<area shape="rect" id="node10" href="$d2/d7c/inet__accept_8cpp.html#ad7ca1270d91921eb3b2502d3bc6fec19" title="non_blocking_accept" alt="" coords="96,233,240,260"/>
+<area shape="rect" id="node4" href="$dd/d35/error__functions_8c.html#a9353730adacb3417493e841dace8708b" title=": Method to print the message with errno message, with exit. " alt="" coords="298,5,358,32"/>
+<area shape="rect" id="node5" href="$dd/d35/error__functions_8c.html#ad83bc66851be4582ec97ba670a95fa0a" title=": Method to print the message with errno message, with _exit. " alt="" coords="295,56,361,83"/>
+<area shape="rect" id="node6" href="$dd/d35/error__functions_8c.html#a88444cb888856a4241c156ae704e76de" title=": Method to print the message with errno message, with exit call. " alt="" coords="289,107,367,133"/>
+<area shape="rect" id="node7" href="$dd/d35/error__functions_8c.html#abdee3dc73ec124f69d84a83af3ea90ce" title=": Method to print the message with errno message, with _exit call. " alt="" coords="305,157,351,184"/>
+<area shape="rect" id="node11" href="$df/dd7/server_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="303,233,353,260"/>
+</map>

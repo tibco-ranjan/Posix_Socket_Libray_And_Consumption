@@ -1,0 +1,5 @@
+<map id="inet_passive" name="inet_passive">
+<area shape="rect" id="node2" href="$d5/dd1/inet__socket_8cpp.html#a659a3f413bba10f654c19e9b9b7ea834" title=": This function creates a socket of the given type, bound to the wildcard IP address on the port spec..." alt="" coords="153,5,228,32"/>
+<area shape="rect" id="node3" href="$d5/dd1/inet__socket_8cpp.html#a9cde5897d9693cc6ad14bed0e118a656" title=": This function creates a listening stream (SOCK_STREAM) socket bound to the wildcard IP address on t..." alt="" coords="150,56,231,83"/>
+<area shape="rect" id="node4" href="$df/dd7/server_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="280,56,331,83"/>
+</map>

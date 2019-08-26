@@ -1,0 +1,123 @@
+\hypertarget{classCMutex}{\section{C\-Mutex Class Reference}
+\label{classCMutex}\index{C\-Mutex@{C\-Mutex}}
+}
+
+
+\-: Mutex class to achieve synchronization  
+
+
+
+
+{\ttfamily \#include $<$C\-Mutex.\-h$>$}
+
+
+
+Collaboration diagram for C\-Mutex\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{d4/db7/classCMutex__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCMutex_a9c050f1451600e8bc35c4c80f6533800}{C\-Mutex} ()
+\item 
+virtual \hyperlink{classCMutex_a59780a1a2a0e85377886c08e91817048}{$\sim$\-C\-Mutex} ()
+\item 
+int \hyperlink{classCMutex_a9ef2455d929bb4bd9dd458a35c8bc9a6}{lock} ()
+\item 
+int \hyperlink{classCMutex_a6d7acb0de2dc55a1fc765055772c132d}{trylock} ()
+\item 
+int \hyperlink{classCMutex_a98da3b28764101df37a6f3935066a149}{unlock} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+pthread\-\_\-mutex\-\_\-t \hyperlink{classCMutex_a0e47869fa098e329321e674647732b4d}{m\-\_\-mutex}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\-: Mutex class to achieve synchronization 
+
+Definition at line 9 of file C\-Mutex.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classCMutex_a9c050f1451600e8bc35c4c80f6533800}{\index{C\-Mutex@{C\-Mutex}!C\-Mutex@{C\-Mutex}}
+\index{C\-Mutex@{C\-Mutex}!CMutex@{C\-Mutex}}
+\subsubsection[{C\-Mutex}]{\setlength{\rightskip}{0pt plus 5cm}C\-Mutex\-::\-C\-Mutex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCMutex_a9c050f1451600e8bc35c4c80f6533800}
+
+
+Definition at line 15 of file C\-Mutex.\-h.
+
+\hypertarget{classCMutex_a59780a1a2a0e85377886c08e91817048}{\index{C\-Mutex@{C\-Mutex}!$\sim$\-C\-Mutex@{$\sim$\-C\-Mutex}}
+\index{$\sim$\-C\-Mutex@{$\sim$\-C\-Mutex}!CMutex@{C\-Mutex}}
+\subsubsection[{$\sim$\-C\-Mutex}]{\setlength{\rightskip}{0pt plus 5cm}virtual C\-Mutex\-::$\sim$\-C\-Mutex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classCMutex_a59780a1a2a0e85377886c08e91817048}
+
+
+Definition at line 16 of file C\-Mutex.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classCMutex_a9ef2455d929bb4bd9dd458a35c8bc9a6}{\index{C\-Mutex@{C\-Mutex}!lock@{lock}}
+\index{lock@{lock}!CMutex@{C\-Mutex}}
+\subsubsection[{lock}]{\setlength{\rightskip}{0pt plus 5cm}int C\-Mutex\-::lock (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCMutex_a9ef2455d929bb4bd9dd458a35c8bc9a6}
+
+
+Definition at line 21 of file C\-Mutex.\-h.
+
+\hypertarget{classCMutex_a6d7acb0de2dc55a1fc765055772c132d}{\index{C\-Mutex@{C\-Mutex}!trylock@{trylock}}
+\index{trylock@{trylock}!CMutex@{C\-Mutex}}
+\subsubsection[{trylock}]{\setlength{\rightskip}{0pt plus 5cm}int C\-Mutex\-::trylock (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCMutex_a6d7acb0de2dc55a1fc765055772c132d}
+
+
+Definition at line 22 of file C\-Mutex.\-h.
+
+\hypertarget{classCMutex_a98da3b28764101df37a6f3935066a149}{\index{C\-Mutex@{C\-Mutex}!unlock@{unlock}}
+\index{unlock@{unlock}!CMutex@{C\-Mutex}}
+\subsubsection[{unlock}]{\setlength{\rightskip}{0pt plus 5cm}int C\-Mutex\-::unlock (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCMutex_a98da3b28764101df37a6f3935066a149}
+
+
+Definition at line 23 of file C\-Mutex.\-h.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classCMutex_a0e47869fa098e329321e674647732b4d}{\index{C\-Mutex@{C\-Mutex}!m\-\_\-mutex@{m\-\_\-mutex}}
+\index{m\-\_\-mutex@{m\-\_\-mutex}!CMutex@{C\-Mutex}}
+\subsubsection[{m\-\_\-mutex}]{\setlength{\rightskip}{0pt plus 5cm}pthread\-\_\-mutex\-\_\-t C\-Mutex\-::m\-\_\-mutex\hspace{0.3cm}{\ttfamily [private]}}}\label{classCMutex_a0e47869fa098e329321e674647732b4d}
+
+
+Definition at line 11 of file C\-Mutex.\-h.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+logging/include/\hyperlink{CMutex_8h}{C\-Mutex.\-h}\end{DoxyCompactItemize}

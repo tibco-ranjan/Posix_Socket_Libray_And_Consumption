@@ -1,0 +1,13 @@
+------------------------
+Server Design
+------------------------
+1. Iterative: Server handles one client at  a time, processing that client's request completly, before roceceeding to
+	      the next client.
+
+2. Cocurent: The server is designed to handle multiple clients simultaneously.
+
+---------------------------
+Note:
+	1. Iterative servers are usally suitable only when client requests can be handled quickly, since each client must wait until all the preceding clients have been serviced.
+
+

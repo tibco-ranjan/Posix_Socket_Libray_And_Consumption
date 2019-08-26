@@ -1,0 +1,57 @@
+\hypertarget{inet__handle__multiplex__io_8h}{\section{tcp\-Socket/include/inet\-\_\-handle\-\_\-multiplex\-\_\-io.h File Reference}
+\label{inet__handle__multiplex__io_8h}\index{tcp\-Socket/include/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-h@{tcp\-Socket/include/inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-h}}
+}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{de/d75/inet__handle__multiplex__io_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{inet__handle__multiplex__io_8h_a5b7d00b9255711bb21248a110db46c9a}{inet\-\_\-handle\-\_\-multiplex\-\_\-io} (const int sockfd, int nsec)
+\begin{DoxyCompactList}\small\item\em \-: This method handles the non blocking I/\-O operation, can be use by both active and passive(client or server) socket to monitor multiple I/\-O at their side. uses select call for monitoring multiple I/\-Os. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{inet__handle__multiplex__io_8h_a5b7d00b9255711bb21248a110db46c9a}{\index{inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-h@{inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-h}!inet\-\_\-handle\-\_\-multiplex\-\_\-io@{inet\-\_\-handle\-\_\-multiplex\-\_\-io}}
+\index{inet\-\_\-handle\-\_\-multiplex\-\_\-io@{inet\-\_\-handle\-\_\-multiplex\-\_\-io}!inet_handle_multiplex_io.h@{inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-h}}
+\subsubsection[{inet\-\_\-handle\-\_\-multiplex\-\_\-io}]{\setlength{\rightskip}{0pt plus 5cm}int inet\-\_\-handle\-\_\-multiplex\-\_\-io (
+\begin{DoxyParamCaption}
+\item[{const int}]{sockfd, }
+\item[{int}]{nsec}
+\end{DoxyParamCaption}
+)}}\label{inet__handle__multiplex__io_8h_a5b7d00b9255711bb21248a110db46c9a}
+
+
+\-: This method handles the non blocking I/\-O operation, can be use by both active and passive(client or server) socket to monitor multiple I/\-O at their side. uses select call for monitoring multiple I/\-Os. 
+
+\begin{DoxyAuthor}{Author}
+\-: Ravi Prasad (India).
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em \-:} & \mbox{[}in\mbox{]} sockfd \{socket/file fd monior for I/\-O\} \\
+\hline
+{\em \-:} & \mbox{[}in\mbox{]} nsec \{select timeout in seconds\} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 24 of file inet\-\_\-handle\-\_\-multiplex\-\_\-io.\-cpp.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d0c/inet__handle__multiplex__io_8h_a5b7d00b9255711bb21248a110db46c9a_icgraph}
+\end{center}
+\end{figure}
+
+

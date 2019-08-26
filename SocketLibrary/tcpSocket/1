@@ -1,0 +1,41 @@
+#include<iostream>
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/types.h>
+#include<stdlib.h>
+#include<errno.h>
+
+using namespace std;
+
+ssize_t
+readLine(int fd, char* buff, int n)
+{
+
+	ssize_t numRead=0;
+	size_t  totalRead=0;
+	char *ch;
+
+	if((buff == NULL) || (n==0)){
+		return -1;
+	}
+	
+	do{
+		numRead = read(fd, &ch, 1);
+		if(numRead < 0){
+			(errno == EINTR) ? continue:(return -1);
+		}
+
+		if(numRead == 0) {
+			(totalRead == 0) ? (return 0):break;
+		}
+	
+		if(totalRead < n-1 ) {	
+			*buff++ = ch;
+			totalRead++;
+		}
+
+		if(ch == '\n')break;
+	
+	}while(1);
+	*buff = NULL;
+}

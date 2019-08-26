@@ -1,0 +1,6 @@
+This Singletone class implementation address following concepts.
+	1. Thread Safe with double check approach.
+	2. Reference counting for same type of object.
+	3. Generic templatized Sigleton base class.
+
+Impletemnted a Singleton Logger class derived from the templatized base class.

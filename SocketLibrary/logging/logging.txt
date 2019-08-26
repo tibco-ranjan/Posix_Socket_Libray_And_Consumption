@@ -1,0 +1,18 @@
+
+2017-09-30.21:14:26:	Used templatized Generic Singleton
+
+2017-09-30.21:14:26:	Teplate Implementation ...
+
+2017-09-30.21:14:26:	 Message is:Refence Counting, Thread Safe implemetation..... Number is:10
+
+2017-09-30.21:21:05:	Used templatized Generic Singleton
+
+2017-09-30.21:21:05:	Teplate Implementation ...
+
+2017-09-30.21:21:05:	 Message is:Refence Counting, Thread Safe implemetation..... Number is:10
+
+2017-09-30.21:21:53:	Used templatized Generic Singleton
+
+2017-09-30.21:21:53:	Teplate Implementation ...
+
+2017-09-30.21:21:53:	 Message is:Refence Counting, Thread Safe implemetation..... Number is:10

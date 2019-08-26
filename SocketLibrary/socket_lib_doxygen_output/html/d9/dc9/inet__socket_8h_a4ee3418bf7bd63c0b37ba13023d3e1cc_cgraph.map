@@ -1,0 +1,4 @@
+<map id="inet_connect_blocking" name="inet_connect_blocking">
+<area shape="rect" id="node2" href="$d9/dc9/inet__socket_8h.html#a294867ba9d7ff47e39d421134d8e12ab" title=": get sockaddr, IPv4 or IPv6 ip address Note: Used in inet_ntop method. " alt="" coords="206,5,295,32"/>
+<area shape="rect" id="node3" href="$d9/dc9/inet__socket_8h.html#a9cff4ecb4076bdcf7b759c9834d1f99b" title=": get sockaddr, IPv4 or IPv6 port number Note: Used in ntohs method. " alt="" coords="207,56,294,83"/>
+</map>
