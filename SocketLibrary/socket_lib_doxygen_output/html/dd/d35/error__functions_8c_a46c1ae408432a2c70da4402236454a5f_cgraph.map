@@ -1,5 +1,0 @@
-<map id="errMsg" name="errMsg">
-<area shape="rect" id="node2" href="$dd/d35/error__functions_8c.html#accffbc65d0a3df9ae8a527062ffddd05" title=": Method to print the message with or without errorno message. " alt="" coords="118,5,229,32"/>
-<area shape="rect" id="node3" href="$df/d33/error__functions_8h.html#a46c1ae408432a2c70da4402236454a5f" title=": Method to print the message with errno message, without exit or _exit call. " alt="" coords="278,5,341,32"/>
-<area shape="rect" id="node4" href="$d2/d3d/common_2README.html#af3164892dd3bd1beaa3a2b70e01edcd9" title="strerror" alt="" coords="278,56,341,83"/>
-</map>

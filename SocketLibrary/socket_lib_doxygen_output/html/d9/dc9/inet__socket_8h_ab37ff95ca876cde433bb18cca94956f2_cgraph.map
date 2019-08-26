@@ -1,5 +1,0 @@
-<map id="inet_connect_non_blocking" name="inet_connect_non_blocking">
-<area shape="rect" id="node2" href="$d5/dd1/inet__socket_8cpp.html#a70c25ed2ad4733bb8647266c4f8b6ad1" title=": Internal method to set the O_NONBLOCK (non&#45;blocking) attribute of a file descriptior. " alt="" coords="232,5,389,32"/>
-<area shape="rect" id="node3" href="$d9/dc9/inet__socket_8h.html#a294867ba9d7ff47e39d421134d8e12ab" title=": get sockaddr, IPv4 or IPv6 ip address Note: Used in inet_ntop method. " alt="" coords="266,56,355,83"/>
-<area shape="rect" id="node4" href="$d9/dc9/inet__socket_8h.html#a9cff4ecb4076bdcf7b759c9834d1f99b" title=": get sockaddr, IPv4 or IPv6 port number Note: Used in ntohs method. " alt="" coords="267,107,354,133"/>
-</map>

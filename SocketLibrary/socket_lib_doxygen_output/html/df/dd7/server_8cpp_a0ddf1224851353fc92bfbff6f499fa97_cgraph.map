@@ -1,9 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$d9/dc9/inet__socket_8h.html#a9cde5897d9693cc6ad14bed0e118a656" title=": This function creates a listening stream (SOCK_STREAM) socket bound to the wildcard IP address on t..." alt="" coords="135,20,217,47"/>
-<area shape="rect" id="node5" href="$da/d4e/inet__accept_8h.html#ad7ca1270d91921eb3b2502d3bc6fec19" title="non_blocking_accept" alt="" coords="104,100,248,127"/>
-<area shape="rect" id="node3" href="$d9/dc9/inet__socket_8h.html#a19ae7ff2c55d9c114a8effdcf9fae870" title=": Server side socket preparation method. It performs following tasks. " alt="" coords="317,5,411,32"/>
-<area shape="rect" id="node4" href="$d5/dd1/inet__socket_8cpp.html#a70c25ed2ad4733bb8647266c4f8b6ad1" title=": Internal method to set the O_NONBLOCK (non&#45;blocking) attribute of a file descriptior. " alt="" coords="480,5,637,32"/>
-<area shape="rect" id="node6" href="$d2/d3d/common_2README.html#ae46f6c5c5729768631dc5ff84e16d52b" title="printf" alt="" coords="339,56,389,83"/>
-<area shape="rect" id="node7" href="$d9/dc9/inet__socket_8h.html#a0d17436cdcdef6e93730b193008e9de8" title=": get sockaddr, IPv4 or IPv6 IP address and port number Note: Used to get the connecting client IP ad..." alt="" coords="297,107,431,149"/>
-<area shape="rect" id="node8" href="$d2/d3d/common_2README.html#a85c39bfe84eed5e1d7dae87fb0018669" title="exit" alt="" coords="343,173,385,200"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="strerror" name="strerror">
-<area shape="rect" id="node2" href="$dd/d35/error__functions_8c.html#accffbc65d0a3df9ae8a527062ffddd05" title=": Method to print the message with or without errorno message. " alt="" coords="155,81,266,108"/>
-<area shape="rect" id="node8" href="$d9/de1/classCLoggerException.html#ae14f1a264ddc7181ff19e36e3f9cd69d" title="CLoggerException::CLogger\lException" alt="" coords="117,133,304,174"/>
-<area shape="rect" id="node3" href="$dd/d35/error__functions_8c.html#a46c1ae408432a2c70da4402236454a5f" title=": Method to print the message with errno message, without exit or _exit call. " alt="" coords="361,5,423,32"/>
-<area shape="rect" id="node4" href="$dd/d35/error__functions_8c.html#a9353730adacb3417493e841dace8708b" title=": Method to print the message with errno message, with exit. " alt="" coords="362,56,422,83"/>
-<area shape="rect" id="node5" href="$dd/d35/error__functions_8c.html#ad83bc66851be4582ec97ba670a95fa0a" title=": Method to print the message with errno message, with _exit. " alt="" coords="359,107,425,133"/>
-<area shape="rect" id="node6" href="$dd/d35/error__functions_8c.html#a88444cb888856a4241c156ae704e76de" title=": Method to print the message with errno message, with exit call. " alt="" coords="353,157,431,184"/>
-<area shape="rect" id="node7" href="$dd/d35/error__functions_8c.html#abdee3dc73ec124f69d84a83af3ea90ce" title=": Method to print the message with errno message, with _exit call. " alt="" coords="369,208,415,235"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="inet_listen" name="inet_listen">
-<area shape="rect" id="node2" href="$d9/dc9/inet__socket_8h.html#a19ae7ff2c55d9c114a8effdcf9fae870" title=": Server side socket preparation method. It performs following tasks. " alt="" coords="137,5,231,32"/>
-<area shape="rect" id="node3" href="$d5/dd1/inet__socket_8cpp.html#a70c25ed2ad4733bb8647266c4f8b6ad1" title=": Internal method to set the O_NONBLOCK (non&#45;blocking) attribute of a file descriptior. " alt="" coords="280,5,437,32"/>
-</map>

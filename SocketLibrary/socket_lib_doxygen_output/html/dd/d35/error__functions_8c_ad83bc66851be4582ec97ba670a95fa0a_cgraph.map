@@ -1,7 +1,0 @@
-<map id="err_exit" name="err_exit">
-<area shape="rect" id="node2" href="$dd/d35/error__functions_8c.html#accffbc65d0a3df9ae8a527062ffddd05" title=": Method to print the message with or without errorno message. " alt="" coords="121,19,231,45"/>
-<area shape="rect" id="node5" href="$dd/d35/error__functions_8c.html#ad0aaa18a5967e8ea284b980da0029f58" title=": Note: Difference between exit() and _exit() " alt="" coords="138,81,214,108"/>
-<area shape="rect" id="node3" href="$df/d33/error__functions_8h.html#a46c1ae408432a2c70da4402236454a5f" title=": Method to print the message with errno message, without exit or _exit call. " alt="" coords="281,5,343,32"/>
-<area shape="rect" id="node4" href="$d2/d3d/common_2README.html#af3164892dd3bd1beaa3a2b70e01edcd9" title="strerror" alt="" coords="281,56,343,83"/>
-<area shape="rect" id="node6" href="$d2/d3d/common_2README.html#a85c39bfe84eed5e1d7dae87fb0018669" title="exit" alt="" coords="291,107,333,133"/>
-</map>
