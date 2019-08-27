@@ -4,11 +4,11 @@
 #define LOGGER CLogger::GetLogger()
 /**
  * @brief: It is a singleton Logger class
- * 				 Can we use in multithreading 
- * 				 This class is used for logging the 
- * 				 erro, warning or information. 
- * 				 TO Do: Need to leverage for verbositiy 
- * 				 level.
+ *          Can we use in multithreading 
+ *          This class is used for logging the 
+ *          erro, warning or information. 
+ *          TO Do: Need to leverage for verbositiy 
+ *          level.
  */
 class CLogger {
 public:

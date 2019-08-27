@@ -13,24 +13,24 @@ using namespace std;
  * @author :Ravi Prasad (India) 
  *
  * @breif  :The method accept multiple new connections and also 
- * 					response back the existing connection	I/O.
- * @param  : [IN] listen_fd {The fd return with the socket() }					 
+ *           response back the existing connection  I/O.
+ * @param  : [IN] listen_fd {The fd return with the socket() }           
  * @return : status -1 for fail 0 for success.
  */
 
 int non_blocking_accept
 (
-		const int listen_sd
+    const int listen_sd
 )
 {
    fd_set master_set, working_set;
    struct timeval      timeout;
-	 int     max_sd, new_sd, i, rc, len, status = 0;
+   int     max_sd, new_sd, i, rc, len, status = 0;
    char   buffer[80];
    int    desc_ready, end_server = FALSE;
    int    close_conn;
-	 char peerAddr[INET6_ADDRSTRLEN];
-	 unsigned short port = 0;
+   char peerAddr[INET6_ADDRSTRLEN];
+   unsigned short port = 0;
 
    /*************************************************************/
    /* Initialize the master fd_set                              */
@@ -138,21 +138,21 @@ int non_blocking_accept
                   /* master read set                            */
                   /**********************************************/
                   printf("  New incoming connection - %d, sending the welcome message\n", new_sd);
-									
-									//Log the client details from where the connection is requested.
-									if((status = get_peer_addr_with_peer_conn_fd(new_sd, peerAddr, &port)) == -1) {
-							      cout<<"get_peer_name_by_cfd failed, error="<<gai_strerror(new_sd)<<" errno=" <<errno<< endl;
-      							exit(1);
-    							}
+                  
+                  //Log the client details from where the connection is requested.
+                  if((status = get_peer_addr_with_peer_conn_fd(new_sd, peerAddr, &port)) == -1) {
+                    cout<<"get_peer_name_by_cfd failed, error="<<gai_strerror(new_sd)<<" errno=" <<errno<< endl;
+                    exit(1);
+                  }
 
-									//send new connection greeting message  
-									const char* const message = "Welcome New Client";
-									if( send(new_sd, message, strlen(message), 0) != strlen(message) )   
-            			{   
-                			perror("send");   
-            			}  
-									printf("Welcome message send successfully\n");
-									
+                  //send new connection greeting message  
+                  const char* const message = "Welcome New Client";
+                  if( send(new_sd, message, strlen(message), 0) != strlen(message) )   
+                  {   
+                      perror("send");   
+                  }  
+                  printf("Welcome message send successfully\n");
+                  
                   FD_SET(new_sd, &master_set);
                   if (new_sd > max_sd)
                      max_sd = new_sd;
@@ -257,6 +257,6 @@ int non_blocking_accept
       if (FD_ISSET(i, &master_set))
          close(i);
    }
-	 return 0;
+   return 0;
 
 }

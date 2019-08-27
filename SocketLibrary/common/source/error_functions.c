@@ -25,7 +25,7 @@ __attribute__((__noreturn__))
  * @author : Ravi Prasad (India)
  *
  * @brief  : termination function with the provision of 
- * 					 core dump [YES/NO] 
+ *           core dump [YES/NO] 
  */
 static void
 terminate(BOOLEAN useExit) {
@@ -46,16 +46,18 @@ terminate(BOOLEAN useExit) {
  * @author : Ravi Prasad (India)
  *
  * @brief  : Method to print the message with or without 
- * 					 errorno message. 
- * 					 
+ *           errorno message. 
  */
 static void
-outputMessage(BOOLEAN useErrNo,
-	      int err,
-	      BOOLEAN flushBuffer,
-	      const char* format,
-	      va_list argList) {
-	
+outputMessage
+(
+	BOOLEAN useErrNo,
+	int err,
+	BOOLEAN flushBuffer,
+	const char* format,
+	va_list argList
+) 
+{
 
 	char buff[256] = {'\0'};
 	char errMsg[256] = {'\0'};
@@ -67,7 +69,7 @@ outputMessage(BOOLEAN useErrNo,
 	   snprintf(errMsg, BUFF_SIZE, " error=[%d] : [%s] ", err, strerror(err)); 
 	} else {
 	   snprintf(errMsg, BUFF_SIZE, " :");
-	}	
+	}
 
 	snprintf(buff, BUFF_SIZE, "ERROR::%s %s", usrMsg, errMsg);
 	if(flushBuffer){
@@ -81,8 +83,8 @@ outputMessage(BOOLEAN useErrNo,
  * @author : Ravi Prasad (India)
  *
  * @brief  : Method to print the message with 
- * 					 errno message, without exit or _exit
- * 					 call.
+ *           errno message, without exit or _exit
+ *           call.
  */
 void 
 errMsg(const char* format, ...) {
@@ -100,7 +102,7 @@ errMsg(const char* format, ...) {
  * @author : Ravi Prasad (India)
  *
  * @brief  : Method to print the message with 
- * 					 errno message, with exit.
+ *           errno message, with exit.
  */
 void 
 errExit(const char* format, ...) {
@@ -116,7 +118,7 @@ errExit(const char* format, ...) {
  * @author : Ravi Prasad (India)
  *
  * @brief  : Method to print the message with 
- * 					 errno message, with _exit.
+ *           errno message, with _exit.
  */
 void 
 err_exit(const char* format, ...) {
@@ -132,7 +134,7 @@ err_exit(const char* format, ...) {
  * @author : Ravi Prasad (India)
  *
  * @brief  : Method to print the message with
- * 					 errno message, with exit call.
+ *           errno message, with exit call.
  */
 void 
 errExitEN(int errNum, const char* format, ...) {
@@ -148,7 +150,7 @@ errExitEN(int errNum, const char* format, ...) {
  * @author : Ravi Prasad (India)
  *
  * @brief  : Method to print the message with
- * 					 errno message, with _exit call.
+ *           errno message, with _exit call.
  */
 void 
 fatal(const char* format, ...) {
@@ -182,7 +184,7 @@ usageErr(const char *format, ...)
  * @author : Ravi Prasad (India)
  *
  * @brief  : Method to print the command line argument
- * 					 error.
+ *           error.
  */
 void
 cmdLineErr(const char *format, ...)
